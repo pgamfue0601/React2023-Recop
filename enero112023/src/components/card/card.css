@@ -1,0 +1,18 @@
+.card{
+    margin: 15px auto;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.card img{
+    width: fit-content;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+.card button {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

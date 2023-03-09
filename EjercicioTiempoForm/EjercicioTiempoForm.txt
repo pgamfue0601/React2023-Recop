@@ -1,0 +1,13 @@
+Ejercicio: 
+Deseamos crear una aplicación para llevar la gestión telemática de las horas baratas de LUZ, para ello a través de la API pública 
+de api.preciodelaluz.org, se necesita crear una interfaz con las siguientes características:
+1º Comenzará la aplicación redireccionando a /login, donde a través de un emoticono, un campo de user y contraseña, nos permitirá guardar 
+dentro de un estado (null/objeto de los datos) si estamos logueados o no estamos logueados en el sistema.
+
+2º Una vez logueados accederamos a la ruta /precioluz, donde mostraremos las 6 horas más baratas colocando que son de color verde,
+y naranja las demás, y las 6 más caras rojo el precio de las horas. Al hacer click sobre cada uno de los iconos, aparecerá una tarjeta
+con el precio de la luz, un gráfico del precio de la luz actual y el precio promedio.
+Creamos un navbar con un menu hamburger y nos saldrá un menú desplegable para cerrar sesión.
+
+->Requisitos: Debe de tener Router-DOM, el login se hará contra Firebase (con usuarios y admin), crear un formulario con hook-form.
+Un botón que envié por correo las 6 horas más baratas en PDF (dentro del menú)

@@ -1,0 +1,7 @@
+Crear un formulario que me pida Nombre, Localidad, País y un campo que se llame token.
+
+Si los demás campos no están rellenados, que no aparezca el campo token.
+
+Al enviar el formulario, nos traeremos de la API de openweathermap del estado de la próxima semana, se mostrará en cards.
+
+La llamada a la API en un helper, no lleva router.
